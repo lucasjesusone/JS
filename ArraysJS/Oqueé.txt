@@ -1,0 +1,20 @@
+Array é uma estrutura de dados capaz de organizar e armazenar outros dados.
+
+onde: Dados são organizados em forma de lista,cada valor ficar em uma determinada posição.
+
+Pode também armazenar internamente qualquer outro tipo ( Number, string, boolean.. etc)
+---------------------------------------------------------------------------------------------
+
+Exemplos de Arrays
+
+let hitchedSpaceships = ["Elemental", "Colossus", "Fenix"]
+console.log(hitchedSpaceships[0])  // 0 para elemental, 1 para Colossus e 2 para Fenix
+-----------------------------------------------------------------------------------------------------------------
+let spaceshipsInfo = ["Elemental", 7, true]    // Elemental ( nave ) , 7 ( Tripulantes ) e Vlr bool ( True )
+
+console.log(spaceshipsInfo[0,1,2])
+
+---------------------------------------------------------------------------------------------------------------
+let hitchedSpaceships = new Array ("", "", "", "")
+
+console.log(hitchedSpaceships)  // NEW ARRAY NÃO SE USA MUITO, MELHOR COLCHETE
